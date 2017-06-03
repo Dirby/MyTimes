@@ -1,4 +1,4 @@
-* {
+ {
     border: 1px solid black;
 }
 
@@ -51,8 +51,11 @@ nav span {
 .main-content {
     display: flex;
     padding-top: 100px;
+    width: 1232px;
+    margin: 0 auto 78px auto;
 }
 
+/*  FIRST COLUMN  */
 .column-large {
     display: flex;
     flex-direction: column;
@@ -60,18 +63,54 @@ nav span {
     width: 630px;
 }
 
-.monument-valley {
+.tuna-headline {
+    background-image: url(../images/img-story-main.png);
+    width: 630px;
+    height: 300px;
+    margin-top: 0;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+}
+
+.earth-spins {
+    background-image: url(../images/img-story-2.png);
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
     display: block;
 }
 
-.tuna {
+.camera {
+    background-image: url(../images/img-story-3.png);
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
     display: block;
 }
 
-p {
+h2 {
     display: block;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
+.article-text {
+    display: block;
+    font-size: 17px;
+}
+
+/*  SECOND COLUMN  */
 .column-medium {
     display: flex;
     flex-direction: column;
@@ -79,9 +118,33 @@ p {
     margin-right: 32px;
 }
 
+.fbi-story {
+    display: block;
+}
+
+.cats {
+    background-image: url(../images/img-story-1.png);
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+.brooklyn {
+    display: block;
+}
+
+
+
+/*  THIRD COLUMN  */
 .column-small {
     display: flex;
     flex-direction: column;
     width: 240px;
     margin-right: 32px;
 }
+
